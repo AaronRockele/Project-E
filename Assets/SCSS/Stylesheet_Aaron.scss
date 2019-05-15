@@ -1,7 +1,91 @@
-body {}
+@import 'var';
 
-.container {
-    .header {
-        background-image: url(../IMG/main_pic.jpg)
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+
+.robotics {
+    .container {
+        display: grid;
+        height: 100vh;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .content-box-1 {
+            grid-column: 1/3;
+            grid-row: 1/2;
+            background-color: $color1;
+            padding-left: 20px;
+            padding-top: 10px;
+            text-align: left;
+            padding-right: 50px;
+
+            p {
+                font-size: 1.4em;
+            }
+        }
+
+        .content-box-2 {
+            background-color: $color3;
+            grid-column: 2/4;
+            grid-row: 2/3;
+            color: $color1;
+            padding-left: 50px;
+            padding-top: 10px;
+            text-align: right;
+            padding-right: 20px;
+
+            p {
+                font-size: 1.4em;
+            }
+
+
+        }
+
+        .img-box-2 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            background-image: url(../IMG/img_box-2.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img-box-1 {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            background-image: url(../IMG/img_box-1.jpg);
+            background-position: center;
+            background-size: cover;
+
+        }
     }
+
+    .content-box {
+        height: 90vh;
+        width: 55%;
+        margin: auto;
+
+        h1 {
+            color: $color3;
+            font-size: 2.25em;
+            font-weight: 80;
+            margin-block-end: 1em;
+            border-bottom: 1px solid $color3;
+            position: relative;
+            right: 45vw;
+            text-align: right;
+            width: 100vw;
+            margin-top: 10%;
+        }
+
+        p {
+            font-size: 1.4em;
+        }
+    }
+
+
 }
