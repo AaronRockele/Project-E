@@ -8,6 +8,16 @@ body {
 }
 
 .robotics {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Encode Sans Semi Expanded", sans-serif;
+    }
+
     .container {
         display: grid;
         height: 100vh;
@@ -25,7 +35,7 @@ body {
             padding-right: 50px;
 
             p {
-                font-size: 1.4em;
+                font-size: 1.1em;
             }
         }
 
@@ -40,7 +50,7 @@ body {
             padding-right: 20px;
 
             p {
-                font-size: 1.4em;
+                font-size: 1.1em;
             }
 
 
@@ -49,7 +59,7 @@ body {
         .img-box-2 {
             grid-column: 1/2;
             grid-row: 2/3;
-            background-image: url(../IMG/img_box-2.jpg);
+            background-image: url(../IMG/robot-header.jpg);
             background-position: center;
             background-size: cover;
         }
@@ -65,12 +75,15 @@ body {
     }
 
     .content-box {
-        height: 90vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 95vh;
         width: 55%;
         margin: auto;
 
+
         h1 {
-            color: $color3;
+            color: $color4;
             font-size: 2.25em;
             font-weight: 80;
             margin-block-end: 1em;
@@ -79,12 +92,39 @@ body {
             right: 45vw;
             text-align: right;
             width: 100vw;
-            margin-top: 10%;
+            margin-top: 5%;
         }
 
-        p {
-            font-size: 1.4em;
+        .p-left {
+            font-size: 1em;
+            text-align: justify;
+            margin-left: 2%;
+
+
         }
+
+        .p-right {
+            font-size: 1em;
+            text-align: justify;
+            padding-right: 5%;
+
+
+        }
+
+
+        .img-left {
+            height: auto;
+            width: 35%;
+            float: left;
+        }
+
+        .img-right {
+            height: auto;
+            width: 42%;
+            float: right;
+        }
+
+
     }
 
 

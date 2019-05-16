@@ -4,6 +4,14 @@ body {
   font-family: "roboto", sans-serif;
 }
 
+.robotics h1,
+.robotics h2,
+.robotics h3,
+.robotics h4,
+.robotics h5,
+.robotics h6 {
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+}
 .robotics .container {
   display: grid;
   height: 100vh;
@@ -21,7 +29,7 @@ body {
   padding-right: 50px;
 }
 .robotics .container .content-box-1 p {
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 .robotics .container .content-box-2 {
   background-color: #464545;
@@ -34,12 +42,12 @@ body {
   padding-right: 20px;
 }
 .robotics .container .content-box-2 p {
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 .robotics .container .img-box-2 {
   grid-column: 1/2;
   grid-row: 2/3;
-  background-image: url(../IMG/img_box-2.jpg);
+  background-image: url(../IMG/robot-header.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -51,12 +59,14 @@ body {
   background-size: cover;
 }
 .robotics .content-box {
-  height: 90vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 95vh;
   width: 55%;
   margin: auto;
 }
 .robotics .content-box h1 {
-  color: #464545;
+  color: #456d53;
   font-size: 2.25em;
   font-weight: 80;
   margin-block-end: 1em;
@@ -65,10 +75,27 @@ body {
   right: 45vw;
   text-align: right;
   width: 100vw;
-  margin-top: 10%;
+  margin-top: 5%;
 }
-.robotics .content-box p {
-  font-size: 1.4em;
+.robotics .content-box .p-left {
+  font-size: 1em;
+  text-align: justify;
+  margin-left: 2%;
+}
+.robotics .content-box .p-right {
+  font-size: 1em;
+  text-align: justify;
+  padding-right: 5%;
+}
+.robotics .content-box .img-left {
+  height: auto;
+  width: 35%;
+  float: left;
+}
+.robotics .content-box .img-right {
+  height: auto;
+  width: 42%;
+  float: right;
 }
 
 /*# sourceMappingURL=Stylesheet_Aaron.css.map */
