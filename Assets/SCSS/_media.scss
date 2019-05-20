@@ -1,0 +1,174 @@
+@media only screen and (min-width: 1400px) {
+  html {
+    font-size: 24px;
+  }
+  .home-container {
+    width: 55%;
+  }
+  footer {
+    .foot {
+      width: 55%;
+    }
+  }
+  .kris-container {
+    width: 55%;
+  }
+  .para-cont {
+    width: 55%;
+  }
+  .robotics {
+    .content-box {
+      width: 55%;
+    }
+  }
+  .googlebox {
+    width: 55%;
+  }
+  .eco-container {
+    width: 55%;
+  }
+  .la-roundbox {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+  .home-container {
+    width: 55%;
+  }
+
+  .kris-container {
+    width: 55%;
+  }
+  .para-cont {
+    width: 55%;
+  }
+  .robotics {
+    .content-box {
+      width: 55%;
+    }
+  }
+  footer {
+    .foot {
+      width: 55%;
+    }
+  }
+  .googlebox {
+    width: 55%;
+  }
+  .eco-container {
+    width: 55%;
+  }
+  .la-roundbox {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  html {
+    font-size: 12px;
+    .fullscreen-video-wrap {
+      background: url("./assets/images/city1.jpg") no-repeat center;
+      background-size: cover;
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+      animation: fadein 2s forwards ease;
+      animation-delay: 500ms;
+    }
+  }
+  video {
+    display: none;
+  }
+  .home-container {
+    width: 80%;
+  }
+
+  .kris-container {
+    width: 80%;
+  }
+  .para-cont {
+    width: 80%;
+  }
+  .robotics {
+    .content-box {
+      width: 80%;
+    }
+  }
+  footer {
+    .foot {
+      width: 80%;
+    }
+  }
+  .googlebox {
+    width: 80%;
+  }
+  .eco-container {
+    width: 80%;
+  }
+  .la-roundbox {
+    width: 80%;
+  }
+  .la-picbox {
+    height: 75vh;
+
+    .la-item {
+      flex-flow: row wrap;
+      width: 33vw;
+      height: 15vh;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 8px;
+    .fullscreen-video-wrap {
+      background: url("./assets/images/city1.jpg") no-repeat center;
+      background-size: cover;
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+      animation: fadein 2s forwards ease;
+      animation-delay: 500ms;
+    }
+  }
+  video {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .home-container {
+    width: 95%;
+  }
+
+  .kris-container {
+    width: 95%;
+  }
+  .para-cont {
+    width: 95%;
+  }
+  .robotics {
+    .content-box {
+      width: 95%;
+    }
+  }
+  .foot {
+    width: 95vw;
+  }
+
+  .googlebox {
+    width: 95%;
+  }
+  .eco-container {
+    width: 95%;
+  }
+  .la-roundbox {
+    width: 95%;
+  }
+  .la-picbox {
+    display: none;
+  }
+}
